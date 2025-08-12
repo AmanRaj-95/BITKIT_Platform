@@ -13,6 +13,7 @@
     "@mui/icons-material": "^5.15.0",
     "@mui/material": "^5.15.14",
     "@reduxjs/toolkit": "^2.8.2",
+    "@savaryna/tailwindcss-material-symbols": "^1.3.0",
     "antd": "^5.26.2",
     "axios": "^1.6.7",
     "dayjs": "^1.11.10",
