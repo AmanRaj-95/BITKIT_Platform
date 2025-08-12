@@ -27,7 +27,7 @@ import axios from "axios";
 import { getAuth } from "firebase/auth";
 
 const apiBaseUrl = process.env.NODE_ENV === "production"
-  ? "https://bitkit-server.onrender.com/api/v1"
+  ? "https://bitkit-server-zhf8.onrender.com/api/v1"
   : "/api/v1";
 
 const axiosInstance = axios.create({
