@@ -7,7 +7,7 @@ export default defineConfig({
    server: {
     proxy: {
       '/api': {
-        target: 'https://bitkit-server.onrender.com', //  backend URL
+        target: 'https://bitkit-server-zhf8.onrender.com', //  backend URL
         changeOrigin: true,
         secure: false,
       }

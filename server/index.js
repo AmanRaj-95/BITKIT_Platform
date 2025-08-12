@@ -35,7 +35,7 @@ const PORT = process.env.PORT || 3000;
 
 const allowedOrigins = [
   "http://localhost:5173",                   
-  "https://bitkit-green.vercel.app"
+  "https://bitkit-platform.vercel.app"
 ];
 
 app.use(cors({
