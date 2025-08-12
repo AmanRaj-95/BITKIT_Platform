@@ -1,0 +1,10 @@
+.tagged-questions-page {
+  padding: 20px;
+}
+
+.highlight-tag {
+  background-color: #e3f2fd;
+  color: #007bff;
+  padding: 3px 8px;
+  border-radius: 4px;
+}

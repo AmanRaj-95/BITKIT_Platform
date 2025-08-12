@@ -1,0 +1,39 @@
+
+
+
+{
+  "name": "bitkit",
+  "version": "1.0.0",
+  "description": "college mern project",
+  "homepage": "https://github.com/DeepkumarSingh/Group-Project#readme",
+  "bugs": {
+    "url": "https://github.com/DeepkumarSingh/Group-Project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeepkumarSingh/Group-Project.git"
+  },
+  "license": "ISC",
+  "author": "Deep",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.7.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.4.0",
+    "mongoose": "^8.15.2",
+    "multer": "^2.0.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^7.0.3",
+    "nodemon": "^3.1.10"
+  }
+}

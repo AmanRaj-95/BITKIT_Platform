@@ -1,0 +1,85 @@
+.tags-page {
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: 20px auto 0 auto;
+}
+
+.tags-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; /* Center the header content */
+  margin-bottom: 40px;
+  position: relative; /* Allow absolute positioning for search bar */
+}
+
+.tags-title {
+  font-size: 2rem;
+  color: #19376d;
+  font-weight: 600;
+  margin: 0; /* Remove margins for centering */
+  text-align: center;
+  flex: 0 1 auto; /* Keep title centered */
+}
+
+.tags-search {
+  position: absolute; /* Position search bar at rightmost corner */
+  right: 0; /* Align to the right edge */
+  flex: 0 1 300px; /* Fixed width for search bar */
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 1px solid #d1d5db; /* Subtle gray border */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Light shadow for depth */
+  outline: none; /* Remove default outline */
+  transition: all 0.2s ease; /* Smooth transitions */
+}
+
+.tags-search:focus {
+  border-color: #19376d; /* Highlight border on focus */
+  box-shadow: 0 0 0 3px rgba(25, 55, 109, 0.1); /* Subtle focus ring */
+}
+
+.tags-search::placeholder {
+  color: #6b7280; /* Muted placeholder text */
+  font-style: italic; /* Subtle italic style for placeholder */
+}
+
+.tag-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.tag-card {
+  padding: 12px 18px;
+  background-color: #e6f0ff;
+  color: #0b2447;
+  font-weight: 500;
+  font-size: 0.95rem;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  white-space: nowrap;
+  flex-shrink: 0;
+  width: fit-content;
+  max-width: 200px;
+  flex-basis: 18%; /* Default: 5 per row */
+}
+
+.tag-card:nth-child(8n+6),
+.tag-card:nth-child(8n+7),
+.tag-card:nth-child(8n+8) {
+  min-width: 180px;
+  flex-basis: 28%; /* 3 per row */
+}
+
+.tag-card:hover {
+  background-color: #cce0ff;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

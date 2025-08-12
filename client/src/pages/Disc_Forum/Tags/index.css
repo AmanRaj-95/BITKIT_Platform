@@ -1,0 +1,11 @@
+.stack-index {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.stack-index-content {
+  display: flex;
+  flex: 1;
+  min-height: calc(100vh - 64px); /* if you have a header of height 64px */
+}
